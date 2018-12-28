@@ -36,7 +36,7 @@
 \def\beamer@mytheme@stylered{red}%
 \def\beamer@mytheme@stylegray{gray}%
 \def\beamer@mytheme@stylempik{mpik}%
-
+\def\beamer@mytheme@stylepurple{purple}%
 \ifx\beamer@mytheme@style\beamer@mytheme@stylegreen%
 	% Green
     \definecolor{primaryLight}{HTML}{77933C}
@@ -67,6 +67,12 @@
 		\definecolor{primary}{HTML}{116656}
 		\definecolor{secondary}{HTML}{116656}
 		\definecolor{tertiary}{HTML}{84D1C1}
+	\else\ifx\beamer@mytheme@style\beamer@mytheme@stylepurple%
+		% MPIK
+		\definecolor{primaryLight}{HTML}{ 442680 }
+		\definecolor{primary}{HTML}{ 66548A  }
+		\definecolor{secondary}{HTML}{ CD4BFA }
+		\definecolor{tertiary}{HTML}{82309E }
     \else% 
     	% Asphalt by default
       	\definecolor{primaryLight}{HTML}{34495E}
